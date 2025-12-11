@@ -1,4 +1,4 @@
-export type stats = {
+export type Skill = {
     id: number;
     name: string;
     level: number;
@@ -7,5 +7,5 @@ export type stats = {
 
 export type hiscoresResponse = {
     name: string;
-    skills: stats[];
+    skills: Skill[];
 }
